@@ -4,7 +4,7 @@
 
 This project explores various Machine Learning architectures and preprocessing methods to classify human activities using data collected from smartphone inertial sensors. The dataset used is the **Smartphone-Based Recognition of Human Activities and Postural Transitions**, which includes 12 labeled activity types such as walking, standing, sitting, and transitions between these postures.
 
-We evaluate the effect of different preprocessing strategies (raw data, SMOTE, PCA) on the performance of CNN models, and compare them with alternative baseline ML models.
+We evaluate the effect of different preprocessing strategies and compare the final accuracy of all models to identify the best model that suitable for prediction of the dataset.
 
 ## File Structure
 
@@ -54,4 +54,6 @@ Make sure you have installed the following libraries to exercute all the code su
   8. math
   9. collections
   10. random 
+  11. torch
+  12. warnings
 
